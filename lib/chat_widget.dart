@@ -16,7 +16,7 @@ class ChatWidget extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Material(
-      color: _chat["isSender"] == true ? primartColor : Colors.white,
+      color: _chat["isSender"] == true ? primaryColor : Colors.white,
       child: Padding(
         padding: const EdgeInsets.all(16),
         child: Row(
